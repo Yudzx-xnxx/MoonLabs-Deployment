@@ -30,14 +30,14 @@ Before running the script, make sure you have:
 
 ## **Termux**
 ```bash
-pkg update && pkg upgrade
-pkg install git
-git clone https://github.com/Yudzx-xnxx/MoonLabs-Deployment.git
-pkg install python3
-cd MoonLabs-Deployment
-pkg install pip
-pip install -r requirements.txt
-python3 deploy.py
+$ pkg update && pkg upgrade
+$ pkg install git
+$ git clone https://github.com/Yudzx-xnxx/MoonLabs-Deployment.git
+$ pkg install python3
+$ cd MoonLabs-Deployment
+$ pkg install pip
+$ pip install -r requirements.txt
+$ python3 deploy.py
 
 ```
 
@@ -46,24 +46,24 @@ python3 deploy.py
 ## Linux (Ubuntu / Debian / Arch / Fedora)
 
 ```bash
-sudo apt update && sudo apt upgrade
-sudo apt install git python3 python3-pip -y
-git clone https://github.com/Yudzx-xnxx/MoonLabs-Deployment.git
-cd MoonLabs-Deployment
-pip3 install -r requirements.txt
-python3 deploy.py
+$ sudo apt update && sudo apt upgrade
+$ sudo apt install git python3 python3-pip -y
+$ git clone https://github.com/Yudzx-xnxx/MoonLabs-Deployment.git
+$ cd MoonLabs-Deployment
+$ pip3 install -r requirements.txt
+$ python3 deploy.py
 
 ```
 ### For Arch Linux:
 
 ```bash
-sudo pacman -Syu git python python-pip
+$ sudo pacman -Syu git python python-pip
 
 ```
 ### For Fedora:
 
 ```bash
-sudo dnf install git python3 python3-pip
+$ sudo dnf install git python3 python3-pip
 
 ```
 
@@ -85,10 +85,12 @@ git config --global user.name "YourName"
 
 Run the script using:
 
-python3 deploy.py
+```bash
+$ python3 deploy.py
 
 Then follow the menu instructions.
 
+```
 
 ---
 
